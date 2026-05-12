@@ -14,7 +14,7 @@ export function usePWA(): {
     if (!("serviceWorker" in navigator)) return;
 
     navigator.serviceWorker
-      .register("/service-worker.js", { scope: "/" })
+      .register("/service-worker.js?v=3", { scope: "/" })
       .then((registration) => {
         registrationRef.current = registration;
 

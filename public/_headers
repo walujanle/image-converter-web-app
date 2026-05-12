@@ -3,3 +3,6 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=(), browsing-topics=()
   X-Content-Type-Options: nosniff
   Cross-Origin-Opener-Policy: same-origin
+
+/service-worker.js
+  Cache-Control: no-cache, no-store, must-revalidate
