@@ -2,7 +2,7 @@
 
 A browser-native image converter for batch image processing. Files are processed locally in the browser with Web Workers and WASM encoders. This repository does not include an upload API.
 
-**Current project version**: `0.1.0 - Beta Version`
+**Current project version**: `0.2.0 - Beta Version`
 
 > Prefer a native desktop experience? A cross-platform desktop version is also available at [walujanle/image-converter-desktop-app](https://github.com/walujanle/image-converter-desktop-app).
 
