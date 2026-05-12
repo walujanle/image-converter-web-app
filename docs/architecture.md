@@ -240,7 +240,7 @@ Runtime security choices:
 - Content validation before conversion.
 - Filename sanitization before downloads.
 - Worker isolation for CPU-heavy work.
-- Deployment headers and CSP in `public/_headers` (Netlify/Cloudflare-style header file).
+- Deployment headers in `public/_headers` (Netlify/Cloudflare-style header file).
 
 Compliance note:
 
@@ -268,7 +268,7 @@ Treat these as high risk and add focused regression tests:
 - Metadata injection/parsing.
 - Filename sanitization.
 - Storage schema changes.
-- CSP/header changes.
+- Header changes.
 - Accessibility primitive changes.
 
 ## Validation Baseline
